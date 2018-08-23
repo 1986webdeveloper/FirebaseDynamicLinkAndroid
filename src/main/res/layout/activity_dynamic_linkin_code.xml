@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.acquaint.firebasedynamiclink.DynamicLinkinCode">
+
+    <LinearLayout
+        android:id="@+id/ll_postid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/enter_post_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <EditText
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/et_postid"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            tools:ignore="LabelFor" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@id/ll_postid"
+        android:id="@+id/ll_userid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/enter_user_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <EditText
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/et_userid"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            tools:ignore="LabelFor" />
+    </LinearLayout>
+    <Button
+        android:layout_above="@id/share"
+        android:layout_margin="20dp"
+        android:id="@+id/bt_generate_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/generate_link"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/share"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>

@@ -1,0 +1,4 @@
+#Thu Aug 23 17:57:26 IST 2018
+base.0=/home/acquaint/Desktop/MyWorkspace/FirebaseDynamicLinkDemo/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/home/acquaint/Desktop/MyWorkspace/FirebaseDynamicLinkDemo/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

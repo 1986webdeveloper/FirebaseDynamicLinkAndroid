@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "815812698714",
+    "firebase_url": "https://fir-dynamiclinkdemo-a1cc7.firebaseio.com",
+    "project_id": "fir-dynamiclinkdemo-a1cc7",
+    "storage_bucket": "fir-dynamiclinkdemo-a1cc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815812698714:android:77fda30fcf643aad",
+        "android_client_info": {
+          "package_name": "com.acquaint.firebasedynamiclink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815812698714-1egakutphndmnmrq2ormpp113ln6gr8m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.acquaint.firebasedynamiclink",
+            "certificate_hash": "d82241578b2dc87869f8c1ac17c91f9f7511bc7c"
+          }
+        },
+        {
+          "client_id": "815812698714-cnuh9pe29p2rmoksfis89791mdhvd09p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6r_K7Gl17epHlfHeI3E87L6IdPyCozDA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815812698714-cnuh9pe29p2rmoksfis89791mdhvd09p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

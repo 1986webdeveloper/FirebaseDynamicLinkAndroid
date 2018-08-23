@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FirebaseDynamicLinkDemo</string>
+    <string name="title_receive">Receive</string>
+    <string name="title_send">Send</string>
+    <string name="msg_no_deep_link">No deep link received.</string>
+    <string name="dynamic_links_domain">demoapp.com</string>
+    <string name="utf">UTF-8</string>
+    <string name="firebase_deep_link">Firebase Deep Link</string>
+    <string name="error_wait">Please wait until the dynamic link generates</string>
+    <string name="er_uri">Could not decode Uri:</string>
+    <string name="er_postid">Please Enter Post id</string>
+    <string name="er_userid">Please Enter User id</string>
+    <string name="https">https</string>
+    <string name="appcode">acquaint.page.link</string>
+    <string name="postid">postid</string>
+    <string name="success">success</string>
+    <string name="task">task</string>
+    <string name="flowchart_link">Flowchart Link</string>
+    <string name="er_internet">Please check your Internet Connection</string>
+    <string name="enter_post_id">Enter Post id</string>
+    <string name="enter_user_id">Enter User id</string>
+    <string name="generate_link">Generate Link</string>
+    <string name="share">Share</string>
+</resources>
